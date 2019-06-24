@@ -1,0 +1,55 @@
+body, .card-bg-2 {
+  background: #22638b;
+}
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./font.woff2) format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.card-bg {
+  background: #1e365c;
+}
+
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.card-panel i {
+  font-size: 1.5em;
+}
+
+.card-panel p {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.card {
+  padding: 1em 0.25em;
+}
